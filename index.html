@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Crave-Cafe </title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/logocoffee1.png" type="img/x-icon" />
+	<!-- boxi icon library -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+	<!-- main css file -->
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	 
+	 <!-- start loader -->
+	 	<div class="load" id="load">
+	 			<img src="img/loadcoffee.gif" alt="" class="load-gif"/>
+	 	</div>	
+	 <!-- end loader -->
+
+	 <!-- start header -->
+	 <header class="header" id="header">
+	 	<nav class="nav container">
+	 		<a href="#" class="nav-logo">
+	 			<img src="img/logo.png" class="nav-logo-img" alt="logo"/>
+	 			Crave Cafe.
+	 		</a>
+	 		<div class="nav-menu" id="nav-menu">
+	 			<ul class="nav-list">
+	 				<li class="nav-item">
+	 					<a href="#home" class="nav-link">home</a>
+	 				</li>
+	 				<li class="nav-item">
+	 					<a href="#products" class="nav-link">products</a>
+	 				</li>
+	 				<li class="nav-item">
+	 					<a href="#premium" class="nav-link">premium</a>
+	 				</li>
+	 				<li class="nav-item">
+	 					<a href="#blog" class="nav-link">blog</a>
+	 				</li>
+	 			</ul>
+
+		 		<div class="nav-close" id="nav-close">
+		 			<i class="bx bx-x"></i>
+		 		</div>
+	 		</div>
+		 		<div class="nav-toggle" id="nav-toggle">
+		 			<i class="bx bx-grid-alt"></i>
+		 		</div>
+	 	</nav>
+	 </header>
+	 <!-- end header -->
+
+	 <main>
+	 	<!-- start home section -->
+	 	<section class="home d-grid active-link" id="home">
+	 		<div class="home-container">
+	 			<div class="home-content container">
+	 				<h1 class="home-title">
+	 					Choose Your Favorite Coffee and Enjoy <span>.</span>
+	 				</h1>
+	 				<p class="home-desc">
+	 					Buy the best and delicious coffee
+	 				</p>
+	 				<div class="home-data">
+	 					<div class="home-data-group">
+	 						<h2 class="home-data-number">120k</h2>
+	 						<h3 class="home-data-title">Testimonials</h3>
+	 						<p class="home-data-desc">
+	 							Tsetimonials from various customers who trust us.
+	 						</p>
+	 					</div>
+	 					<div class="home-data-group">
+	 						<h2 class="home-data-number">340k+</h2>
+	 						<h3 class="home-data-title">Exclusive Product</h3>
+	 						<p class="home-data-desc">
+	 							Premium preparation with quality ingredients.
+	 						</p>
+	 					</div>
+	 				</div>
+	 				<a href="#specialty" class="home-scroll">
+	 					<img src="img/scroll.png" class="home-scroll"/>
+	 				</a>
+	 			</div>
+	 		</div>
+	 		<img src="img/home.png" class="home-img"/>
+	 	</section>
+	 	<!-- end home section -->
+
+	 <!-- start specialty section  -->
+	 <div class="specialty section container" id="specialty">
+	 	<div class="specialty-container">
+	 		<div class="specialty-box">
+	 			<h2 class="section-title">
+	 				Specialty coffee that male you happy and clear you up!
+	 			</h2>
+
+	 			<div>
+	 				<button class="button specialty-button">See more</button>
+	 			</div>
+	 		</div>
+	 		<div class="specialty-category">
+	 			<div class="specialty-group specialty-line">
+	 				<img src="img/specialty1.png" class="specialty-img"/>
+	 				<h3 class="specialty-title">Selected Coffe</h3>
+	 				<p class="specialty-desc">We select the best premium coffee, for a true taste.</p>
+	 			</div>
+	 			<div class="specialty-group specialty-line">
+	 				<img src="img/specialty2.png" class="specialty-img"/>
+	 				<h3 class="specialty-title">Delicious cookies</h3>
+	 				<p class="specialty-desc">Enjoy your coffee with some hot cookies</p>
+	 			</div>
+	 			<div class="specialty-group">
+	 				<img src="img/specialty3.png" class="specialty-img"/>
+	 				<h3 class="specialty-title">Enjoy at home</h3>
+	 				<p class="specialty-desc">Enjoy the best coffee in the comfort of your home.</p>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!-- end specialty section  -->
+
+	 <!-- start products section  -->
+	 <section class="products section" id="products">
+	 	<div class="products-container container">
+	 		<h2 class="section-title">
+	 			Choose our delicious and best products 
+	 		</h2>
+	 		<ul class="products-filters all">
+	 			<li class="products-item products-line active-product" data-filter="all">
+	 				<h3 class="products-title">All Products</h3>
+	 				<span class="products-stock">11 Products</span>
+	 			</li>
+	 			<li class="products-item products-line" data-filter=".delicacies">
+	 				<h3 class="products-title">New delicacies</h3>
+	 				<span class="products-stock">3 Products</span>
+	 			</li>
+	 			<li class="products-item products-line" data-filter=".coffee">
+	 				<h3 class="products-title">Hot Coffee</h3>
+	 				<span class="products-stock">4 Products</span>
+	 			</li>
+	 			<li class="products-item" data-filter=".cake">
+	 				<h3 class="products-title">Cakes and Delicacies</h3>
+	 				<span class="products-stock">4 Products</span>
+	 			</li>
+	 		</ul>
+	 		<div class="products-content d-grid">
+	 			   <!-- Delicacies -->
+	 			<article class="products-card delicacies">
+	 				<div class="products-shape">
+	 					<img src="img/delicacies1.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">5$</h2>
+	 					<h3 class="products-name">Cookies</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card delicacies">
+	 				<div class="products-shape">
+	 					<img src="img/delicacies2.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">6$</h2>
+	 					<h3 class="products-name">Croissant</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card delicacies">
+	 				<div class="products-shape">
+	 					<img src="img/delicacies3.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">4$</h2>
+	 					<h3 class="products-name">Croissant</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+
+	 			   <!-- Coffee -->
+	 			<article class="products-card coffee">
+	 				<div class="products-shape">
+	 					<img src="img/coffee1.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">7$</h2>
+	 					<h3 class="products-name">Black Coffe</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card coffee">
+	 				<div class="products-shape">
+	 					<img src="img/coffee2.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">12$</h2>
+	 					<h3 class="products-name">Pure Coffee</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card coffee">
+	 				<div class="products-shape">
+	 					<img src="img/coffee3.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">9$</h2>
+	 					<h3 class="products-name">Milk Coffee</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card coffee">
+	 				<div class="products-shape">
+	 					<img src="img/coffee4.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">9$</h2>
+	 					<h3 class="products-name">Moka Coffee</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+
+	 			   <!-- Cake --> 
+	 			<article class="products-card cake">
+	 				<div class="products-shape">
+	 					<img src="img/cake1.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">6$</h2>
+	 					<h3 class="products-name">Cream Cake</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card cake">
+	 				<div class="products-shape">
+	 					<img src="img/cake2.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">5$</h2>
+	 					<h3 class="products-name">Chocolate Croissant</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card cake">
+	 				<div class="products-shape">
+	 					<img src="img/cake3.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">15$</h2>
+	 					<h3 class="products-name">Pancake</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 			<article class="products-card cake">
+	 				<div class="products-shape">
+	 					<img src="img/cake4.png" class="products-img" />
+	 				</div>
+	 				<div class="products-data">
+	 					<h2 class="products-price">12$</h2>
+	 					<h3 class="products-name">Milk Cake</h3>
+	 					<button class="button products-button">
+	 						<i class="bx bx-shopping-bag"></i>
+	 					</button>
+	 				</div>
+	 			</article>
+	 		</div>
+	 	</div>
+	 </section>
+	 <!-- end products section  -->
+
+	 <!-- start premium section -->
+	 <section class="quality section" id="premium">
+	 	<div class="quality-container container">
+	 		<h2 class="section-title">
+	 			We offer a premium and better quality preparation just for you!
+	 		</h2>
+	 		<div class="quality-content d-grid">
+	 			<div class="quality-img">
+	 				<img src="img/quality1.png" class="quality-img-big"/>
+	 				<img src="img/quality2.png" class="quality-img-small"/>
+	 			</div>
+	 			<div class="quality-data">
+	 				<h1 class="quality-title">Premium Coffee</h1>
+	 				<h2 class="quality-price">$94.99</h2>
+	 				<span class="quality-special">Especial Price</span>
+	 				<p class="quality-desc">
+	 					We are delighted with our coffee. That's why you get the best premium coffee plus the kettle made of resistant meterials you see in the image, for a special price.
+	 				</p>
+	 				<div class="quality-buttons">
+	 					<button class="button">Buy Now</button>
+	 					<a href="#" class="quality-button">
+	 						see more
+	 						<i class="bx bx-right-arrow-alt"></i>
+	 					</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+	 <!-- end premium section -->
+
+	 <!-- start logos section -->
+	 <section class="logo section">
+	 	<div class="logo-container container d-grid">
+	 		<img src="img/logocoffee1.png" class="logo-img"/>
+	 		<img src="img/logocoffee2.png" class="logo-img"/>
+	 		<img src="img/logocoffee3.png" class="logo-img"/>
+	 		<img src="img/logocoffee4.png" class="logo-img"/>
+	 		<img src="img/logocoffee5.png" class="logo-img"/>
+	 	</div>
+	 </section>
+	 <!-- end logos section -->
+
+	 <!-- start blog section  -->
+	 <section class="blog section" id="blog">
+	 	<div class="blog-container container" id="blog">
+	 		<h2 class="section-title">
+	 			Our Blogs Coffee with trending topic for this week 
+	 		</h2>
+	 		<div class="blog-content d-grid">
+	 			<article class="blog-card">
+	 				<div class="blog-image">
+	 					<img src="img/blog1.png" class="blog-img"/>
+	 					<a href="#" class="blog-button">
+	 						<i class="bx bx-right-arrow-alt"></i>
+	 					</a>
+	 				</div>
+	 				<div class="blog-data">
+	 					<h2 class="blog-title">
+	 						10 Coffee Recommendations
+	 					</h2>
+	 					<p class="blog-desc">
+	 						The blogs about coffee will helo you a lot about how it is prepared, it's waiting time, foe a good quality coffee.
+	 					</p>
+	 					<div class="blog-footer">
+	 						<div class="blog-reaction">
+								<i class="bx bx-comment"></i>
+	 							<span>12</span>
+	 						</div>
+	 						<div class="blog-reaction">
+								<i class="bx bx-show"></i>
+	 							<span>76.5k</span>
+	 						</div>
+	 					</div>
+	 				</div>
+	 			</article>
+	 			<article class="blog-card">
+	 				<div class="blog-image">
+	 					<img src="img/blog2.png" class="blog-img"/>
+	 					<a href="#" class="blog-button">
+	 						<i class="bx bx-right-arrow-alt"></i>
+	 					</a>
+	 				</div>
+	 				<div class="blog-data">
+	 					<h2 class="blog-title">
+	 						12 Benefits Of Drinking Coffee
+	 					</h2>
+	 					<p class="blog-desc">
+	 						The blogs about coffee will helo you a lot about how it is prepared, it's waiting time, foe a good quality coffee.	 						
+	 					</p>
+	 					<div class="blog-footer">
+	 						<div class="blog-reaction">
+								<i class="bx bx-comment"></i>
+	 							<span>45</span>
+	 						</div>
+	 						<div class="blog-reaction">
+								<i class="bx bx-show"></i>
+	 							<span>30k</span>
+	 						</div>
+	 					</div>
+	 				</div>
+	 			</article>
+	 		</div>
+	 	</div>
+	 </section>
+	 <!-- end blog section  -->
+	 </main>
+
+	 <!-- start footer -->
+	 <footer class="footer">
+	 	<div class="footer-container container">
+	 		<h1 class="footer-title">Coffee.</h1>
+	 		<div class="footer-content d-grid">
+	 			<div class="footer-data">
+	 				<p class="footer-desc">
+	 					Subscribe to our newsletter
+	 				</p>
+	 				<div class="footer-newsletter">
+	 					<input type="email" placeholder="Your email address" class="footer-input"/>
+	 					<button class="footer-button">
+	 						<i class="bx bx-right-arrow-alt"></i>
+	 					</button>
+	 				</div>
+	 			</div>
+	 			<div class="footer-data">
+	 				<h2 class="footer-subtitle">Address</h2>
+	 				<p class="footer-info">
+	 				Nevada(NV), 89403 <br> 1024 Dwight Way Dayton
+	 				</p>
+	 			</div>
+	 			<div class="footer-data">
+	 				<h2 class="footer-subtitle">Contact</h2>
+	 				<p class="footer-info">
+	 					+1 755 458 4236 <br>
+	 					coffee07@gmail.com
+	 				</p>
+	 			</div>
+	 			<div class="footer-data">
+	 				<h2 class="footer-subtitle">Office</h2>
+	 				<p class="footer-info">
+	 					Monday - Saturday <br>
+	 					9AM - 10PM
+	 				</p>
+	 			</div>
+	 		</div>
+	 		<div class="footer-group">
+	 			<ul class="footer-social">
+	 				<a href="https://www.facebook.com" target="_blank" class="footer-social-link">
+	 					<i class="bx bxl-facebook"></i>
+	 				</a>
+	 				<a href="https://www.instagram.com" target="_blank" class="footer-social-link">
+	 					<i class="bx bxl-instagram"></i>
+	 				</a>
+	 				<a href="https://www.twiteer.com" target="_blank" class="footer-social-link">
+	 					<i class="bx bxl-twitter"></i>
+	 				</a>
+	 			</ul>
+	 			<span class="footer-copy">
+	 				&#169;  ALl rights reserved by Djaafar Lecheheb
+	 			</span>
+	 		</div>
+	 	</div>
+	 </footer>
+	 <!-- end footer -->
+
+	 <!-- start scroll to top -->
+	 <a href="#" class="scroll-up" id="scroll-up">
+	 	<i class="bx bx-up-arrow-alt"></i>
+	 </a>
+	 <!-- end scroll to top -->
+  
+
+    <!-- main js file -->
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
